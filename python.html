@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Python - PIKZY</title>
+    <link rel="stylesheet" href="CSS/styles-languages.css">
+    <link rel="icon" href="LOGOS/favi.png" type="image/png">
+    <!-- SweetAlert2 para alerts -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-brand">{ PIKZY }</a>
+            <div class="nav-links">
+                <a href="login.html" class="nav-link">Log in</a>
+                <a href="index.html#certificaciones" class="nav-link">Sobre nosotros</a>
+                <a href="contacto.html" class="nav-link">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="course-hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Certificación en Python</h1>
+                    <p class="subtitle">Domina uno de los lenguajes más demandados y versátiles del mercado</p>
+                    <div class="course-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">12</span>
+                            <span class="stat-label">Módulos</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">45h</span>
+                            <span class="stat-label">Contenido</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">100+</span>
+                            <span class="stat-label">Ejercicios</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-logo">
+                    <img src="LOGOS/LOGO-PYTHON.png" alt="Logo de Python">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="description-section">
+        <div class="container">
+            <h2 class="section-title">Sobre el curso</h2>
+            <p class="description-text">
+                Este curso completo de Python está diseñado para llevarte desde los fundamentos hasta conceptos avanzados de programación. Aprenderás a desarrollar aplicaciones robustas, trabajar con bases de datos, crear APIs web y aplicar Python en proyectos de ciencia de datos y machine learning. Con más de 45 horas de contenido práctico y 100+ ejercicios, adquirirás las habilidades necesarias para destacar en el mercado laboral tecnológico. Al finalizar, obtendrás una certificación oficial que validará tu dominio del lenguaje más versátil de la industria.
+            </p>
+            
+            <div class="exam-requirements">
+                <h3>Requisitos del Examen de Certificación</h3>
+                <ul>
+                    <li>⏱️ <strong>Duración:</strong> 10 minutos</li>
+                    <li>📝 <strong>Preguntas:</strong> 8 preguntas de opción múltiple</li>
+                    <li>✅ <strong>Aprobación:</strong> Mínimo 6 respuestas correctas (75%)</li>
+                    <li>💰 <strong>Costo:</strong> $499 USD</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="modules-section">
+        <div class="container">
+            <h2 class="section-title">Módulos del curso</h2>
+            <div class="modules-grid">
+                <div class="module-card">
+                    <span class="module-number">Módulo 1</span>
+                    <h3 class="module-title">Fundamentos de Python</h3>
+                    <p class="module-description">Introducción al lenguaje y conceptos básicos</p>
+                    <ul class="module-topics">
+                        <li>Sintaxis y variables</li>
+                        <li>Tipos de datos</li>
+                        <li>Operadores y expresiones</li>
+                        <li>Control de flujo</li>
+                    </ul>
+                </div>
+
+                <div class="module-card">
+                    <span class="module-number">Módulo 2</span>
+                    <h3 class="module-title">Estructuras de Datos</h3>
+                    <p class="module-description">Listas, tuplas, sets y diccionarios</p>
+                    <ul class="module-topics">
+                        <li>Listas y métodos</li>
+                        <li>Tuplas y sets</li>
+                        <li>Diccionarios</li>
+                        <li>Comprehensions</li>
+                    </ul>
+                </div>
+
+                <div class="module-card">
+                    <span class="module-number">Módulo 3</span>
+                    <h3 class="module-title">Funciones y Módulos</h3>
+                    <p class="module-description">Programación modular y reutilizable</p>
+                    <ul class="module-topics">
+                        <li>Definición de funciones</li>
+                        <li>Parámetros y argumentos</li>
+                        <li>Módulos y paquetes</li>
+                        <li>Funciones lambda</li>
+                    </ul>
+                </div>
+
+                <div class="module-card">
+                    <span class="module-number">Módulo 4</span>
+                    <h3 class="module-title">Programación Orientada a Objetos</h3>
+                    <p class="module-description">Clases, objetos y herencia</p>
+                    <ul class="module-topics">
+                        <li>Clases y objetos</li>
+                        <li>Encapsulamiento</li>
+                        <li>Herencia y polimorfismo</li>
+                        <li>Métodos especiales</li>
+                    </ul>
+                </div>
+
+                <div class="module-card">
+                    <span class="module-number">Módulo 5</span>
+                    <h3 class="module-title">Manejo de Archivos</h3>
+                    <p class="module-description">Lectura y escritura de archivos</p>
+                    <ul class="module-topics">
+                        <li>Archivos de texto</li>
+                        <li>Archivos CSV y JSON</li>
+                        <li>Context managers</li>
+                        <li>Serialización de datos</li>
+                    </ul>
+                </div>
+
+                <div class="module-card">
+                    <span class="module-number">Módulo 6</span>
+                    <h3 class="module-title">Manejo de Excepciones</h3>
+                    <p class="module-description">Control de errores y debugging</p>
+                    <ul class="module-topics">
+                        <li>Try-except-finally</li>
+                        <li>Excepciones personalizadas</li>
+                        <li>Debugging efectivo</li>
+                        <li>Logging</li>
+                    </ul>
+                </div>
+
+                <div class="module-card">
+                    <span class="module-number">Módulo 7</span>
+                    <h3 class="module-title">Bases de Datos</h3>
+                    <p class="module-description">SQL y bases de datos relacionales</p>
+                    <ul class="module-topics">
+                        <li>SQLite con Python</li>
+                        <li>CRUD operations</li>
+                        <li>ORM con SQLAlchemy</li>
+                        <li>Consultas avanzadas</li>
+                    </ul>
+                </div>
+
+                <div class="module-card">
+                    <span class="module-number">Módulo 8</span>
+                    <h3 class="module-title">Desarrollo Web</h3>
+                    <p class="module-description">Flask y Django básico</p>
+                    <ul class="module-topics">
+                        <li>Introducción a Flask</li>
+                        <li>Rutas y templates</li>
+                        <li>APIs REST</li>
+                        <li>Autenticación</li>
+                    </ul>
+                </div>
+
+                <div class="module-card">
+                    <span class="module-number">Módulo 9</span>
+                    <h3 class="module-title">Análisis de Datos</h3>
+                    <p class="module-description">NumPy, Pandas y visualización</p>
+                    <ul class="module-topics">
+                        <li>NumPy arrays</li>
+                        <li>DataFrames con Pandas</li>
+                        <li>Limpieza de datos</li>
+                        <li>Matplotlib y Seaborn</li>
+                    </ul>
+                </div>
+
+                <div class="module-card">
+                    <span class="module-number">Módulo 10</span>
+                    <h3 class="module-title">Machine Learning</h3>
+                    <p class="module-description">Introducción a scikit-learn</p>
+                    <ul class="module-topics">
+                        <li>Algoritmos de clasificación</li>
+                        <li>Regresión lineal</li>
+                        <li>Clustering</li>
+                        <li>Evaluación de modelos</li>
+                    </ul>
+                </div>
+
+                <div class="module-card">
+                    <span class="module-number">Módulo 11</span>
+                    <h3 class="module-title">Testing y Calidad</h3>
+                    <p class="module-description">Pruebas unitarias y TDD</p>
+                    <ul class="module-topics">
+                        <li>Unittest y Pytest</li>
+                        <li>Test-Driven Development</li>
+                        <li>Code coverage</li>
+                        <li>Mejores prácticas</li>
+                    </ul>
+                </div>
+
+                <div class="module-card">
+                    <span class="module-number">Módulo 12</span>
+                    <h3 class="module-title">Proyecto Final</h3>
+                    <p class="module-description">Aplicación completa de certificación</p>
+                    <ul class="module-topics">
+                        <li>Diseño de proyecto</li>
+                        <li>Implementación</li>
+                        <li>Deploy</li>
+                        <li>Presentación y certificación</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-container">
+                <h2 class="cta-title">¿Listo para comenzar tu viaje en Python?</h2>
+                <p class="cta-subtitle">Obtén acceso completo al curso y certificación oficial</p>
+                <div class="price-tag">
+                    $499 <span>USD</span>
+                </div>
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-primary">Pagar Examen</a>
+                    <a href="#" class="btn btn-secondary">Iniciar Examen</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Sobre Nosotros</h3>
+                    <ul>
+                        <li><a href="#">Quiénes somos</a></li>
+                        <li><a href="#">Misión y visión</a></li>
+                        <li><a href="#">Nuestro equipo</a></li>
+                        <li><a href="#">Trabaja con nosotros</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Certificaciones</h3>
+                    <ul>
+                        <li><a href="java.html">Java</a></li>
+                        <li><a href="python.html">Python</a></li>
+                        <li><a href="cpp.html">C++</a></li>
+                        <li><a href="web.html">Desarrollo Web</a></li>
+                        <li><a href="redes.html">Redes</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Redes Sociales</h3>
+                    <ul class="social-links">
+                        <li><img src="LOGOS/LOGO-FACEBOOK.png" alt="Facebook" class="social-logo"></li>
+                        <li><img src="LOGOS/LOGO-X.png" alt="Twitter" class="social-logo"></li>
+                        <li>
+                            <a href="https://www.instagram.com/pikzycertificados/" target="_blank" rel="noopener noreferrer">
+                            <img src="LOGOS/LOGO-INSTAGRAM.webp" alt="Instagram" class="social-logo"></li>
+                        <li><img src="LOGOS/LOGO-YOUTUBE.png" alt="YouTube" class="social-logo"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="footer-bottom">
+                <p class="footer-users">+3 millones de usuarios confían en nosotros</p>
+                <p>Todos los derechos reservados. Proyecto Universitario</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="JS/python.js"></script>
+</body>
+</html>

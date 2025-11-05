@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen de Certificación - Python</title>
+    <link rel="stylesheet" href="CSS/styles-languages.css">
+    <link rel="stylesheet" href="CSS/styles-examen.css">
+    <link rel="icon" href="LOGOS/favi.png" type="image/png">
+    <!-- SweetAlert2 para alerts -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-brand">{ PIKZY }</a>
+            <div class="nav-links">
+                <span id="userAccount" class="user-account"></span>
+                <a href="#" id="logoutBtn" class="nav-link">Cerrar Sesión</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="exam-container">
+        <div class="container">
+            <div class="exam-header">
+                <h1>Examen de Certificación: Python</h1>
+                <div class="exam-info">
+                    <div class="info-item">
+                        <span class="info-label">Usuario:</span>
+                        <span id="examUser" class="info-value"></span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Fecha:</span>
+                        <span id="examDate" class="info-value"></span>
+                    </div>
+                    <div class="info-item timer-box">
+                        <span class="info-label">Tiempo restante:</span>
+                        <span id="timer" class="timer-value">10:00</span>
+                    </div>
+                </div>
+                <div class="exam-instructions">
+                    <p>📝 Responde las 8 preguntas del examen</p>
+                    <p>✅ Se requiere un mínimo de 6 respuestas correctas para aprobar (75%)</p>
+                    <p>⚠️ El examen se enviará automáticamente cuando el tiempo termine</p>
+                </div>
+            </div>
+
+            <form id="examForm" class="exam-form">
+                <div id="questionsContainer" class="questions-container">
+                    <!-- Las preguntas se cargarán aquí dinámicamente -->
+                </div>
+
+                <div class="exam-actions">
+                    <button type="submit" class="btn-submit-exam">
+                        Enviar Examen
+                        <span class="arrow-icon">›</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Sobre Nosotros</h3>
+                    <ul>
+                        <li><a href="#">Quiénes somos</a></li>
+                        <li><a href="#">Misión y visión</a></li>
+                        <li><a href="#">Nuestro equipo</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Certificaciones</h3>
+                    <ul>
+                        <li><a href="java.html">Java</a></li>
+                        <li><a href="python.html">Python</a></li>
+                        <li><a href="cpp.html">C++</a></li>
+                        <li><a href="web.html">Desarrollo Web</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Redes Sociales</h3>
+                    <ul class="social-links">
+                        <li><img src="LOGOS/LOGO-FACEBOOK.png" alt="Facebook" class="social-logo"></li>
+                        <li><img src="LOGOS/LOGO-X.png" alt="Twitter" class="social-logo"></li>
+                        <li><img src="LOGOS/LOGO-INSTAGRAM.webp" alt="Instagram" class="social-logo"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Todos los derechos reservados. Proyecto Universitario</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/examen.js"></script>
+</body>
+</html>

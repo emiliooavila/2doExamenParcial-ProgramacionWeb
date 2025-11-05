@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-In - PIKZY</title>
+    <link rel="stylesheet" href="CSS/styles-login.css">
+    <link rel="icon" href="LOGOS/favi.png" type="image/png">
+    <!-- SweetAlert2 para alerts -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-brand">{ PIKZY }</a>
+            <a href="index.html" class="back-btn">
+                <span class="back-icon">⟲</span>
+                Inicio
+            </a>
+        </div>
+    </nav>
+
+    <div class="login-container">
+        <div class="login-box">
+            <h1 class="login-title">Log-In</h1>
+            
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="username" class="form-label">usuario:</label>
+                    <input 
+                        type="text" 
+                        id="username" 
+                        name="username" 
+                        class="form-input"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="password" class="form-label">contraseña:</label>
+                    <input 
+                        type="password" 
+                        id="password" 
+                        name="password" 
+                        class="form-input"
+                        required
+                    >
+                </div>
+
+                <button type="submit" class="submit-btn">
+                    Iniciar sesión
+                    <span class="arrow-icon">›</span>
+                </button>
+
+                <div class="forgot-password">
+                    <a href="#">¿Olvidaste tu contraseña?</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="JS/login.js"></script>
+</body>
+</html>
